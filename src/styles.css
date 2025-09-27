@@ -1,0 +1,64 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+  color: #222;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  background: #f0f4ff;
+  color: #274690;
+}
+
+.booking-form {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  background: #fafafa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.booking-form label {
+  font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #274690;
+  color: white;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #1d356b;
+}
+
+.movie-list article {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.movie-list article:last-child {
+  border-bottom: none;
+}
